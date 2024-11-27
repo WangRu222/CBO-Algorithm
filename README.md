@@ -4,7 +4,7 @@ The attempt is based on Prof.Yuhua Zhu's paper [A consensus-based global optimiz
 ### Convergence Rate
 The argmin method shows faster convergence to the optimal solution, as evidenced by the steeper descent in the convergence plot.
 
-### Final Solution Quality:
+### Final Solution Quality
 
 The argmin method achieved a significantly better final solution  compared to the weighted average method. The argmin method's mean position is closer to the true optimum (0,0) for our test function
 ### Stability 
