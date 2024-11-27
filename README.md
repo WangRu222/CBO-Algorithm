@@ -17,16 +17,16 @@ For each batch $`B_\theta^k`$, perform the following:
 2. Weighted Average Update:
 
 Compute the weighted average $`\bar{x}_{k, \theta}^*: \bar{x}_{k, \theta}^*=\frac{1}{\sum_{j \in B_\theta^k} \mu_j} \sum_{j \in B_\theta^k} X^j \mu_j`$ where $`\mu_j=e^{-\beta L^j}$ or $e^{-\beta \hat{L}^j}`$.
+
 3. Particle Update:
 - Update each particle $`X^j`$ for $`j \in \mathcal{J}_{k, \theta}`$ :
 
 ```math
 X^j \leftarrow X^j-\lambda \gamma_{k, \theta}\left(X^j-\bar{x}_{k, \theta}^*\right)+\sigma_{k, \theta} \sqrt{\gamma_{k, \theta}} \sum_{i=1}^d \vec{e}_i\left(X^j-\bar{x}_{k, \theta}^*\right)_i z_i^j
 ```
-
 where $`z_i^j \sim \mathcal{N}(0,1)$ and $\gamma_{k, \theta}`$ is the learning rate.
 
--Update Options:
+- Update Options:
 Partial Updates: $`\mathcal{J}_{k, \theta}=B_\theta^k`$
 Full Updates: $`\mathcal{J}_{k, \theta}=\{1, \ldots, N\}`$
 #### Step 3: Stopping Criterion
