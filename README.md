@@ -1,5 +1,5 @@
 The attempt is based on Prof.Yuhua Zhu's paper [A consensus-based global optimization method for high dimensional machine learning problems](https://www.esaim-cocv.org/articles/cocv/pdf/2021/01/cocv190163.pdf)
-# Algorithm Design
+# 1.Algorithm Design
 ### Initialization
 * Generate Initial Particles: Start by generating a set of particles $`\left\{X_0^j \in \mathbb{R}^d\right\}_{j=1}^N$ from - a distribution $\rho_0`$.
 * Initialize Remainder Set: Set the remainder set $`\mathcal{R}_0`$ to be empty.
