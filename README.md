@@ -1,4 +1,4 @@
-The attempt is based on Prof.ZHU's paper [A consensus-based global optimization method for high dimensional machine learning problemsA consensus-based global optimization method for high dimensional machine learning problems](https://www.esaim-cocv.org/articles/cocv/pdf/2021/01/cocv190163.pdf)
+The attempt is based on Prof.Yuhua Zhu's paper [A consensus-based global optimization method for high dimensional machine learning problemsA consensus-based global optimization method for high dimensional machine learning problems](https://www.esaim-cocv.org/articles/cocv/pdf/2021/01/cocv190163.pdf)
 # 1. Key observations from the comparison:
 
 ### Convergence Rate
