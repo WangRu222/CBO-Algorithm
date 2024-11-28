@@ -34,6 +34,7 @@ Check if the stopping criterion is met: $`\frac{1}{d}\left\|\Delta \bar{x}^*\rig
 
 If the stopping criterion is not satisfied, repeat Steps 1 and 2.
 # 2. Key observations from the comparison:
+![image](https://github.com/user-attachments/assets/871ef604-460f-43a7-9599-bf863f7ef2b4)
 
 ### Convergence Rate
 The argmin method shows faster convergence to the optimal solution, as evidenced by the steeper descent in the convergence plot.
